@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-load_dotenv()
 import base64
 import streamlit as st
 import os
@@ -13,7 +12,7 @@ from streamlit.components.v1 import html
 os.environ['PATH'] += os.pathsep + r'C:\Program Files (x86)\poppler-24.07.0\Library\bin'
 
 # Load environment variables
-load_dotenv()
+
 
 genai.configure(api_key="AIzaSyAHd9eGNoaYg9stAjR5faaJv5NX-SDjey4")
 
