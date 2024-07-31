@@ -8,6 +8,8 @@ import pdf2image
 import google.generativeai as genai
 from streamlit.components.v1 import html
 
+load_dotenv() 
+
 # Add Poppler path
 os.environ['PATH'] += os.pathsep + r'C:\Program Files (x86)\poppler-24.07.0\Library\bin'
 
